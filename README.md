@@ -12,7 +12,7 @@ In this work, we propose a novel methodology called **Minimal Realization Time-D
 
 ---
 
-Since I have already stored the related data and models, each script can be run independently. As an example of applying the MRTK algorithm to Lorenz system data, you can run `MRTK_Algorithm.py` and replace the loaded data with your own dataset to test whether MRTK works for your dataset.
+Since I have already stored the related data and models, each script can be run independently. The `MRTK_Algorithm.py` provided here is an example of applying the MRTK algorithm to Lorenz system data. However, as a user, you can run `MRTK_Algorithm.py` and replace the loaded data with your own dataset to test whether MRTK works for your specific data.
 
 Required libraries:
 ```python
