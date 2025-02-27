@@ -10,11 +10,10 @@ Data is increasingly abundant in fields such as biology, engineering, neuroscien
 
 The paper is available on Research Square at the following link: [Research Square Paper](https://www.researchsquare.com/article/rs-6029043/v1). In this work, we propose a novel methodology called **Minimal Realization Time-Delay Koopman (MRTK) Analysis**, designed to identify the minimal degrees of freedom in linear systems. MRTK can handle both full-state and sparse measurements, even in noisy environments, making it highly suitable for complex systems across various domains such as biology, engineering, neuroscience, and epidemiology.
 
-The validation in the paper primarily comes from the fluid dynamics simulation data of transitional channel flow generously shared by Professor Benjamin Herrmann, our own generated Lorenz system data, and real-world temperature and wind speed data from the structural health monitoring system of the Hangzhou Bay Bridge.
+The validation in the paper primarily comes from the fluid dynamics simulation data of transitional channel flow generously shared by Professor Benjamin Herrmann, our own generated Lorenz system data, and real-world temperature and wind speed data from the structural health monitoring system of the Hangzhou Bay Bridge.The specific implementation of the transitional channel flow can be found in the paper ([Data-driven Resolvent Analysis](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/datadriven-resolvent-analysis/0FA58F03E774C7402EA188D3B8F34B0F)).  Due to the monitoring data being available from the government, restrictions apply to the availability of these data under license for the current study, meaning they are not publicly accessible.  
 
-The specific implementation of the transitional channel flow can be found in the paper ([Data-driven Resolvent Analysis](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/datadriven-resolvent-analysis/0FA58F03E774C7402EA188D3B8F34B0F)).  
-Due to the monitoring data being available from the government, restrictions apply to the availability of these data under license for the current study, meaning they are not publicly accessible.  
-Therefore, as a public MRTK method repository, we only provide the implementation of the MRTK method based on the Lorenz system data here.
+
+Therefore, as a public MRTK method repository, we only provide the implementation of the MRTK method based on the Lorenz system data here. We believe this is sufficient for users to understand and apply the MRTK algorithm.
 
 ---
 
