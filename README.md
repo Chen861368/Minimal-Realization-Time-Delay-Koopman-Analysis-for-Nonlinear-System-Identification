@@ -7,7 +7,7 @@
 Data is increasingly abundant in fields such as biology, engineering, neuroscience, and epidemiology. However, developing accurate models that capture the dynamics of the underlying system while ensuring interpretability and generalizability remains a significant challenge. To address this, we propose a novel methodology called Minimal Realization Time-Delay Koopman (MRTK) analysis, which is capable of identifying the minimal degrees of freedom in linear systems and handling both full-state and sparse measurements, even in noisy environments. For full-state measurements, we demonstrate that MRTK is equivalent to the Dynamic Mode Decomposition (DMD) method. For sparse measurements, it employs time-delay embedding techniques and the Koopman operator to construct a minimal realization linear model that is diffeomorphic to the attractor of the original system, unveiling the system's physical dynamics from a differential topology perspective. 
 
 <p align="center">
-  <img src="MRTK_Algorithm.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="60%" />
+  <img src="MRTK_algorithm.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="60%" />
 </p>
 
 
