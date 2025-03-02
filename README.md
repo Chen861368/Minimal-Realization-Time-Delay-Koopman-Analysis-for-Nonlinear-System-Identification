@@ -1,6 +1,10 @@
 
 # Minimal Realization Time-Delay Koopman Analysis for Nonlinear System Identification
+
 **Code for preprint paper** "Minimal Realization Time-Delay Koopman Analysis for Nonlinear System Identification"  
+
+If you're interested in learning more about my research, a brief introduction of **my personal research homepage** can be found on [GitHub](https://github.com/Chen861368/Personal-Research-Path).
+
 ---
 
 ### Paper Abstract
