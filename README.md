@@ -8,16 +8,23 @@ If you're interested in learning more about my research, a brief introduction of
 ---
 
 ### Paper Abstract
-Data is becoming increasingly abundant in fields such as solid mechanics, fluid dynamics, and structural engineering. However, developing accurate models that not only capture the underlying system dynamics but also ensure interpretability and generalizability remains a significant challenge. To address this, we propose a novel methodology called Minimal 
-Realization Time-Delay Koopman (MRTK) analysis, which is capable of identifying the minimal degrees of freedom in linear systems and handling both full-state and sparse measurements, 
-even in noisy environments. To address this, we propose a novel methodology called Minimal Realization Time-Delay Koopman (MRTK) analysis, which is capable of identifying the minimal degrees of freedom in linear systems and handling both full-state and sparse measurements, even in noisy environments. For full-state measurements, we demonstrate that MRTK is equivalent to the Dynamic Mode Decomposition (DMD) method. For sparse measurements, it employs time-delay embedding techniques and the Koopman operator to construct a minimal realization linear model that is diffeomorphic to the attractor of the original system, unveiling the system's physical dynamics from a differential topology perspective. 
+Data is becoming increasingly abundant in fields such as solid mechanics, fluid dynamics, and structural engineering. However, developing accurate models that 
+capture the underlying system dynamics while ensuring interpretability and generalizability remains a significant challenge.  
+To address this, we propose a novel methodology called Minimal Realization Time-Delay Koopman (MRTK) analysis, which can identify the minimal degrees of 
+freedom in linear systems from the perspective of singular value energy and handle both full-state and sparse measurements, even in noisy environments.   
+For full high-dimensional state measurements, we demonstrate that the MRTK method is equivalent to the reduced-order approach of Dynamic Mode Decomposition.  
+For sparse measurements, the method employs time-delay embedding techniques and the Koopman operator to construct a minimal realization linear model that is 
+diffeomorphic to the attractor of the original system, unveiling the system's physical dynamics from a differential topology perspective.  
 
 <p align="center">
   <img src="MRTK_algorithm.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="80%" />
 </p>
 
 
-We validate the proposed approach using simulated data from transitional channel flow and the Lorenz system, as well as real-world temperature and wind speed data from the Hangzhou Bay Bridge. Integrating the identified model with a Kalman filter enables accurate estimation and prediction of sparse data. The results demonstrate high predictive accuracy in both scenarios, with the maximum NMSE prediction error for the wind speed field at 1.911%, highlighting the advanced identification capacity of the method and its potential to advance prediction and control of complex systems.
+We validate the proposed approach using simulated data from transitional channel flow and the Lorenz system, as well as real-world wind speed measurements from the Hangzhou Bay Bridge. 
+The results demonstrate that integrating the identified reduced-order model with a Kalman filter enables real-time, accurate estimation and prediction of sparse data. 
+The method shows high predictive accuracy across three scenarios, with the maximum NMSE prediction error for the wind speed field at 1.911\%, highlighting its potential 
+to advance the prediction and control of complex systems.  
 
 <p align="center">
   <img src="MRTK.png" alt="A schematic representation of minimal realization time-delay Koopman system identification and its applications." width="60%" />
